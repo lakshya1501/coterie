@@ -1,0 +1,34 @@
+.videopage{
+    background-color: #131921;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    margin-left: 50px;
+}
+.acctInfo{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    width: max-content;
+}
+.vidPlayer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.player-wrapper {
+    position: relative;
+    padding-top: 56.25% ;/* Player ratio: 100 / (1280 / 720) */
+    width: 800px;
+    height: 400px;
+  }
+  
+  .react-player {
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+
+  }
+ 
